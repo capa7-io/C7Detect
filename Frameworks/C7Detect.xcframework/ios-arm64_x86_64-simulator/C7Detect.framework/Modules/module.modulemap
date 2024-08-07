@@ -1,0 +1,4 @@
+framework module C7Detect {
+  header "C7Detect-Swift.h"
+  requires objc
+}
