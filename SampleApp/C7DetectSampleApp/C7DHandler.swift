@@ -11,7 +11,7 @@ final class C7DHandler: NSObject {
     }
 
     @objc
-    static func on(notification: NSNotification) {
+    func on(notification: NSNotification) {
         // Wait for the semaphore
         C7DHandler.semaphore.wait()
         // Store the notification (could be map to any other domain model)

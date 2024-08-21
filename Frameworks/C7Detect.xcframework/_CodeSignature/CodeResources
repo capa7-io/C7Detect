@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/C7Detect.framework/C7Detect</key>
 		<data>
-		pMJcaspJwxtRkK3RVkIqaTG/7K8=
+		ZUzq7zqBllUOPCef7rcxD3CRcE4=
 		</data>
 		<key>ios-arm64/C7Detect.framework/Headers/C7Detect-Bridging-Header.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>ios-arm64/C7Detect.framework/Info.plist</key>
 		<data>
-		f8P1Ugtv0BxUApqyCA7yb+SkDqY=
+		Ki0384zbOYc9+LhxcSA9wi8s5t4=
 		</data>
 		<key>ios-arm64/C7Detect.framework/Modules/C7Detect.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -66,15 +66,15 @@
 		</data>
 		<key>ios-arm64/C7Detect.framework/PrivateHeaders/TN.h</key>
 		<data>
-		vtmGyU5G8UL74gcqrO/WPQ50cxU=
+		43+NLymhhJOoXovRQHolHr24Ggc=
 		</data>
 		<key>ios-arm64/C7Detect.framework/_CodeSignature/CodeResources</key>
 		<data>
-		OvgtVVVFcmw+LJDunid5Qxa77RA=
+		uB7By1ihIhOK/oYW5vtI3O3RUfg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/C7Detect.framework/C7Detect</key>
 		<data>
-		H5VLXuieC1gmrXP7WkTqbg2WN6E=
+		NwLUboHloKBVYEKmw4HctC+XtuM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/C7Detect.framework/Headers/C7Detect-Bridging-Header.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/C7Detect.framework/Info.plist</key>
 		<data>
-		4fgGN4f7IQfzQn5Lf/IoLjQCC+I=
+		YJDimuZzOqsHjIt4UQT8T0ZSOdg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/C7Detect.framework/Modules/C7Detect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -150,15 +150,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/C7Detect.framework/PrivateHeaders/TN.h</key>
 		<data>
-		vtmGyU5G8UL74gcqrO/WPQ50cxU=
+		43+NLymhhJOoXovRQHolHr24Ggc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/C7Detect.framework/_CodeSignature/CodeResources</key>
 		<data>
-		fNQAvHd3rAZQfJiyzRib6zeFqeg=
+		zit0bFtsx41HXl8fRcvlZlze+A0=
 		</data>
 		<key>macos-arm64_x86_64/C7Detect.framework/Versions/A/C7Detect</key>
 		<data>
-		nAnGtwW5n5tFxaUSy/+x7uAmyh0=
+		HXY8iZzBGOR2/zEmP7fff5oIiMQ=
 		</data>
 		<key>macos-arm64_x86_64/C7Detect.framework/Versions/A/Headers/C7Detect-Bridging-Header.h</key>
 		<data>
@@ -230,15 +230,15 @@
 		</data>
 		<key>macos-arm64_x86_64/C7Detect.framework/Versions/A/PrivateHeaders/TN.h</key>
 		<data>
-		vtmGyU5G8UL74gcqrO/WPQ50cxU=
+		43+NLymhhJOoXovRQHolHr24Ggc=
 		</data>
 		<key>macos-arm64_x86_64/C7Detect.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		REhNdoI/cIyLPqjc6F75aVmD6SQ=
+		2rZwH7esKvJf6mykeF5kbPeWnug=
 		</data>
 		<key>macos-arm64_x86_64/C7Detect.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
-		/bffKCCkdG2ZRdg7XjoQlHn/jHI=
+		4QBKkqLzf2OmWHvzL+3449sKeA0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -247,11 +247,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pMJcaspJwxtRkK3RVkIqaTG/7K8=
+			ZUzq7zqBllUOPCef7rcxD3CRcE4=
 			</data>
 			<key>hash2</key>
 			<data>
-			KCy4IJEwvJASa9y8q655sKAPZRKCLlcWnAyxSxP+XtU=
+			MZlVxAdi+Ym3hkwknEubnrDi+1/Dim8Dgq2UUGSZUUo=
 			</data>
 		</dict>
 		<key>ios-arm64/C7Detect.framework/Headers/C7Detect-Bridging-Header.h</key>
@@ -280,11 +280,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f8P1Ugtv0BxUApqyCA7yb+SkDqY=
+			Ki0384zbOYc9+LhxcSA9wi8s5t4=
 			</data>
 			<key>hash2</key>
 			<data>
-			bGiNOzFbuYYAzFVFgBTFAjlS6IG1MC5ZZjTfe7G5NNM=
+			QcjbiMyHqxpMwjgNthvCtwJRRTa7SRWhaehKASi/HNU=
 			</data>
 		</dict>
 		<key>ios-arm64/C7Detect.framework/Modules/C7Detect.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -412,33 +412,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vtmGyU5G8UL74gcqrO/WPQ50cxU=
+			43+NLymhhJOoXovRQHolHr24Ggc=
 			</data>
 			<key>hash2</key>
 			<data>
-			+BRDZCG7+QFTvYl9Eu/u1Sewyv7+8MSn0SYZMZ+Jl8w=
+			QW4zwn4O0L/hKnzVRlpO5KjYoU+PbaqkwewYa4Fx2Gw=
 			</data>
 		</dict>
 		<key>ios-arm64/C7Detect.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OvgtVVVFcmw+LJDunid5Qxa77RA=
+			uB7By1ihIhOK/oYW5vtI3O3RUfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			l373Ib1nLNMdiyCBySVkqnA+P4EZpJgMMoc1l2YkssM=
+			ly3eXbRy6c3V54IjRuJXlicM933i204oW/2POP40Khc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/C7Detect.framework/C7Detect</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H5VLXuieC1gmrXP7WkTqbg2WN6E=
+			NwLUboHloKBVYEKmw4HctC+XtuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			LIoEKz86cTm/XyI+SpytznHRHzHOxf2xFqpGGERgGKQ=
+			4sg3lrDd/EO1nBlK+JBtCuXNbJvOlTTObQHCnSGA4rc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/C7Detect.framework/Headers/C7Detect-Bridging-Header.h</key>
@@ -467,11 +467,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4fgGN4f7IQfzQn5Lf/IoLjQCC+I=
+			YJDimuZzOqsHjIt4UQT8T0ZSOdg=
 			</data>
 			<key>hash2</key>
 			<data>
-			cidOrtj6zv2fylkwfXq4BwE8/tBF/AEcYCAAzpXYhFo=
+			CSyOPpnN+SJ0VzORiiDD5K3zHziuz0Ww3cKF+Mal9e0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/C7Detect.framework/Modules/C7Detect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -643,22 +643,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vtmGyU5G8UL74gcqrO/WPQ50cxU=
+			43+NLymhhJOoXovRQHolHr24Ggc=
 			</data>
 			<key>hash2</key>
 			<data>
-			+BRDZCG7+QFTvYl9Eu/u1Sewyv7+8MSn0SYZMZ+Jl8w=
+			QW4zwn4O0L/hKnzVRlpO5KjYoU+PbaqkwewYa4Fx2Gw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/C7Detect.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fNQAvHd3rAZQfJiyzRib6zeFqeg=
+			zit0bFtsx41HXl8fRcvlZlze+A0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ynRxfhHjLmMNTQZ5pJLXHbmdzU0fJPzZqPPsPXXqhjA=
+			qRduUbRpVtdb56RfJPEzP9DAlaliBXsrMWuggCPkEqg=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/C7Detect.framework/C7Detect</key>
@@ -690,11 +690,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nAnGtwW5n5tFxaUSy/+x7uAmyh0=
+			HXY8iZzBGOR2/zEmP7fff5oIiMQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			YNCuK8w3aERch5UvSmc0WocRRQ25cCUN6itfSiObOGI=
+			f9tLhxKV85ORY9cP76Vi8O6OUa/ggkFrtrRPjaAPSHk=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/C7Detect.framework/Versions/A/Headers/C7Detect-Bridging-Header.h</key>
@@ -888,33 +888,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vtmGyU5G8UL74gcqrO/WPQ50cxU=
+			43+NLymhhJOoXovRQHolHr24Ggc=
 			</data>
 			<key>hash2</key>
 			<data>
-			+BRDZCG7+QFTvYl9Eu/u1Sewyv7+8MSn0SYZMZ+Jl8w=
+			QW4zwn4O0L/hKnzVRlpO5KjYoU+PbaqkwewYa4Fx2Gw=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/C7Detect.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			REhNdoI/cIyLPqjc6F75aVmD6SQ=
+			2rZwH7esKvJf6mykeF5kbPeWnug=
 			</data>
 			<key>hash2</key>
 			<data>
-			m8VwzJ11Kq6oPYlQCRqCQ/SpplgXsh9d+VstbpDztJM=
+			cu/ShOFF29AQITH59M6FCDwvMQhmRVObutSR+R+Xphs=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/C7Detect.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/bffKCCkdG2ZRdg7XjoQlHn/jHI=
+			4QBKkqLzf2OmWHvzL+3449sKeA0=
 			</data>
 			<key>hash2</key>
 			<data>
-			GwSCxIO0bA6oVcI0sbNw5rmEEnUjVRZKAfKpNpmg9NE=
+			yrVQf8K9cVuZtXqhIaAgPFP1+q9Ktw7lq1itxBXUUso=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/C7Detect.framework/Versions/Current</key>

@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
   spec.name                    = 'C7Detect'
-  spec.version                 = '1.0.0'
+  spec.version                 = '2.0.0'
   spec.summary                 = 'C7Detect library for iOS & macOS'
   spec.homepage                = 'https://capa7.io'
   spec.license                 = { :type => 'PROPERT' }
   spec.author                  = 'Capa7 LLC'
-  spec.source                  = { :git => 'https://github.com/capa7-io/C7Detect.git', :tag => '1.0.0' }
+  spec.source                  = { :git => 'https://github.com/capa7-io/C7Detect.git', :tag => '2.0.0' }
 
   spec.swift_version           = '5.10'
   spec.ios.deployment_target   = '13.0'

@@ -11,6 +11,8 @@ C7Detect is a library for detecting security risks in iOS / macOS libraries and 
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Types of threats](#types-of-threats)
+- [What if?](#what-if)
 - [About this library](#about-this-library)
 - [License](LICENSE)
 
@@ -87,7 +89,7 @@ final class C7DHandler: NSObject {
     }
 
     @objc
-    static func on(notification: NSNotification) {
+    func on(notification: NSNotification) {
         // Wait for the semaphore
         C7DHandler.semaphore.wait()
         // Store the notification (could be map to any other domain model)
@@ -105,6 +107,43 @@ final class C7DHandler: NSObject {
 There is a sample application that uses C7Detect (which triggers events in devices _and_ simulators) at SampleApp/C7DetectSampleApp.xcodeproj.
 
 ![Threats detected on Simulator](https://capa7-io.github.io/C7Detect/images/simulator_screenshot_threats.png "Threats detected on Simulator")
+
+## Types of threats
+
+We categorize threats into two categories: client/device compromised and library compromised. All threats of the type **client/device compromised** can be reported to the client application (or framework) so that the app can decide how to handle this information.
+
+On the other hand, threats categorized as **library compromised** cannot be reported, as there is no guarantee that trusted code will receive the error to handle it properly. This type of threat will result in a runtime crash.
+
+### Client/device compromised
+
+- Running on Simulator.
+- Running from Xcode.
+- Debugger attached/present.
+- Malicious processes.
+- Malicious files.
+- Jailbreak.
+- Unprotected Sandbox.
+
+### Library compromised
+
+- Method swizzling in C7Detect entities
+- Method swizzling in C7DHandler
+- Invalid or modified C7Detect framework
+
+## What if 
+
+1. I don't implement C7DHandler
+
+Either if you forget to implement this class, or some malicious actor removes any trace at runtime of this class, C7Detect will throw a runtime exception, crashing your application and showing a missing threats handler error on the console.
+
+2. Somebody changed the implementation of C7DHandler (method swizzling)?
+
+C7Detect has a built-in protection that verifies if the C7DHandler was manipulated or overwritten. If this verification fails a runtime exception will be thrown, crashing your application and showing a runtime integrity error on the console.
+
+3. Somebody tries to change something in C7Detect framework?
+
+Also in this case a runtime exception will be thrown, crashing your application and showing a runtime integrity error on the console.
+
 
 ## About this library
 

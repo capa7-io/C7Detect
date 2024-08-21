@@ -3,26 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F4C60AF2C64D9B700F70C38 /* C7Detect in Frameworks */ = {isa = PBXBuildFile; productRef = 3F4C60AE2C64D9B700F70C38 /* C7Detect */; };
 		3F90EF912C63D6D0008E4EA0 /* C7DetectSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90EF902C63D6D0008E4EA0 /* C7DetectSampleApp.swift */; };
 		3F90EF932C63D6D0008E4EA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90EF922C63D6D0008E4EA0 /* ContentView.swift */; };
 		3F90EF952C63D6D5008E4EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F90EF942C63D6D5008E4EA0 /* Assets.xcassets */; };
 		3F90EF992C63D6D5008E4EA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F90EF982C63D6D5008E4EA0 /* Preview Assets.xcassets */; };
-		3FAD97872C63D74A0041E44F /* C7Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD97862C63D74A0041E44F /* C7Handler.swift */; };
+		3F91DADA2C7650D0006270A1 /* FakeC7DHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F91DAD92C7650D0006270A1 /* FakeC7DHandler.m */; };
+		3FAD97872C63D74A0041E44F /* C7DHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD97862C63D74A0041E44F /* C7DHandler.swift */; };
+		3FD252C02C764AFB00F08379 /* C7Detect.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD252BF2C764AFB00F08379 /* C7Detect.xcframework */; };
+		3FD252C12C764AFB00F08379 /* C7Detect.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD252BF2C764AFB00F08379 /* C7Detect.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FD252C22C764AFB00F08379 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3FD252C12C764AFB00F08379 /* C7Detect.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3F90EF8D2C63D6D0008E4EA0 /* C7DetectSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C7DetectSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F90EF902C63D6D0008E4EA0 /* C7DetectSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C7DetectSampleApp.swift; sourceTree = "<group>"; };
 		3F90EF922C63D6D0008E4EA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F90EF942C63D6D5008E4EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F90EF962C63D6D5008E4EA0 /* C7DetectSampleapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = C7DetectSampleapp.entitlements; sourceTree = "<group>"; };
+		3F90EF962C63D6D5008E4EA0 /* C7DetectSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = C7DetectSampleApp.entitlements; sourceTree = "<group>"; };
 		3F90EF982C63D6D5008E4EA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3FAD97862C63D74A0041E44F /* C7Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C7Handler.swift; sourceTree = "<group>"; };
+		3F91DAD92C7650D0006270A1 /* FakeC7DHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FakeC7DHandler.m; sourceTree = "<group>"; };
+		3FAD97862C63D74A0041E44F /* C7DHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C7DHandler.swift; sourceTree = "<group>"; };
+		3FD252BF2C764AFB00F08379 /* C7Detect.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:Z24JQDN8PT:Capa7 LLC"; lastKnownFileType = wrapper.xcframework; name = C7Detect.xcframework; path = ../Frameworks/C7Detect.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F4C60AF2C64D9B700F70C38 /* C7Detect in Frameworks */,
+				3FD252C02C764AFB00F08379 /* C7Detect.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +78,10 @@
 				3F90EF902C63D6D0008E4EA0 /* C7DetectSampleApp.swift */,
 				3F90EF922C63D6D0008E4EA0 /* ContentView.swift */,
 				3F90EF942C63D6D5008E4EA0 /* Assets.xcassets */,
-				3F90EF962C63D6D5008E4EA0 /* C7DetectSampleapp.entitlements */,
+				3F90EF962C63D6D5008E4EA0 /* C7DetectSampleApp.entitlements */,
 				3F90EF972C63D6D5008E4EA0 /* Preview Content */,
-				3FAD97862C63D74A0041E44F /* C7Handler.swift */,
+				3FAD97862C63D74A0041E44F /* C7DHandler.swift */,
+				3F91DAD92C7650D0006270A1 /* FakeC7DHandler.m */,
 			);
 			path = C7DetectSampleApp;
 			sourceTree = "<group>";
@@ -78,6 +97,7 @@
 		3FAD978B2C63DDD90041E44F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FD252BF2C764AFB00F08379 /* C7Detect.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,6 +112,7 @@
 				3F90EF892C63D6D0008E4EA0 /* Sources */,
 				3F90EF8A2C63D6D0008E4EA0 /* Frameworks */,
 				3F90EF8B2C63D6D0008E4EA0 /* Resources */,
+				3FD252C22C764AFB00F08379 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,7 +120,6 @@
 			);
 			name = C7DetectSampleApp;
 			packageProductDependencies = (
-				3F4C60AE2C64D9B700F70C38 /* C7Detect */,
 			);
 			productName = C7DetectSampleapp;
 			productReference = 3F90EF8D2C63D6D0008E4EA0 /* C7DetectSampleApp.app */;
@@ -117,6 +137,7 @@
 				TargetAttributes = {
 					3F90EF8C2C63D6D0008E4EA0 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -130,7 +151,6 @@
 			);
 			mainGroup = 3F90EF842C63D6D0008E4EA0;
 			packageReferences = (
-				3F4C60AD2C64D9B700F70C38 /* XCRemoteSwiftPackageReference "C7Detect" */,
 			);
 			productRefGroup = 3F90EF8E2C63D6D0008E4EA0 /* Products */;
 			projectDirPath = "";
@@ -159,7 +179,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F90EF932C63D6D0008E4EA0 /* ContentView.swift in Sources */,
-				3FAD97872C63D74A0041E44F /* C7Handler.swift in Sources */,
+				3FAD97872C63D74A0041E44F /* C7DHandler.swift in Sources */,
+				3F91DADA2C7650D0006270A1 /* FakeC7DHandler.m in Sources */,
 				3F90EF912C63D6D0008E4EA0 /* C7DetectSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,11 +307,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = C7DetectSampleapp/C7DetectSampleapp.entitlements;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = C7DetectSampleapp/C7DetectSampleApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"C7DetectSampleapp/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Z24JQDN8PT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -313,6 +335,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,11 +346,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = C7DetectSampleapp/C7DetectSampleapp.entitlements;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = C7DetectSampleapp/C7DetectSampleApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"C7DetectSampleapp/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Z24JQDN8PT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -377,25 +401,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		3F4C60AD2C64D9B700F70C38 /* XCRemoteSwiftPackageReference "C7Detect" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/capa7-io/C7Detect";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		3F4C60AE2C64D9B700F70C38 /* C7Detect */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3F4C60AD2C64D9B700F70C38 /* XCRemoteSwiftPackageReference "C7Detect" */;
-			productName = C7Detect;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F90EF852C63D6D0008E4EA0 /* Project object */;
 }
